@@ -1,4 +1,4 @@
-import { browser, by, element } from 'protractor';
+import {browser, by, element, ExpectedConditions} from 'protractor';
 
 export class AppPage {
   navigateTo() {
@@ -6,6 +6,16 @@ export class AppPage {
   }
 
   getParagraphText() {
-    return element(by.css('app-root h1')).getText();
+    return element(by.css('app-root h3')).getText();
+  }
+
+  getAboutAddNewButton() {
+    return element(by.css('[data-target="#photoModalAdd"]'));
+  }
+
+  getModalTitleAddNew() {
+    const modal = element(by.id('photoModalAdd'));
+    browser.wait(ExpectedConditions.visibilityOf(modal), 5000);
+    return element(by.className('modal-title'));
   }
 }

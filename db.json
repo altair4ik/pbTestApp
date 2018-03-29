@@ -1,0 +1,24 @@
+{
+  "photos": [
+    {
+      "title": "chris hemsworth / actor",
+      "url": "http://localhost:3000/images/76a1beb200b9c0f2117ae837e1e107751522312855235.jpeg",
+      "id": 1
+    },
+    {
+      "title": "justin bieber / singer",
+      "url": "http://localhost:3000/images/f02814369b20df49a723f100958134a11522312887253.jpeg",
+      "id": 2
+    },
+    {
+      "title": "dwayne johnson / actor, wrestler",
+      "url": "http://localhost:3000/images/4dbd326ba6a8b2ddedfeac82b40202121522313023079.jpeg",
+      "id": 3
+    },
+    {
+      "title": "john cena / wrestler",
+      "url": "http://localhost:3000/images/502e71df0adcf9144a601b3cd132dfc21522312935616.jpeg",
+      "id": 4
+    }
+  ]
+}
